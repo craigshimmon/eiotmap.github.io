@@ -17,6 +17,7 @@ body{
 
 .mapdiv :hover {
 	fill:#AFE2B7;
+	cursor: crosshair;
 }
 
 .mapdiv circle {
