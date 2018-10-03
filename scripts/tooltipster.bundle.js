@@ -61,7 +61,7 @@ var defaults = {
 			touchleave: false
 		},
 		triggerOpen: {
-			click: true,
+			click: false,
 			mouseenter: false,
 			tap: false,
 			touchstart: false
@@ -978,7 +978,7 @@ $.Tooltipster.prototype = {
 			
 			this.__options.triggerClose = {
 				mouseleave: true,
-				originClick: true,
+				originClick: false,
 				touchleave: true
 			};
 		}
