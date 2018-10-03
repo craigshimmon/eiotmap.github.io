@@ -20,6 +20,23 @@
     });
 </script>
 
+
+<!--popup script by CS-->
+<script>
+function myFunction() {
+    var x = document.getElementById("infodiv");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+<!-- end of script-->
+
+
+
+
 </head>
 <body>
 
@@ -151,8 +168,8 @@
 <circle cx="623.5" cy="127.5" r="6" class="tooltip" title="Great Yarmouth"/>
 	<circle cx="509.5" cy="137.5" r="6" class="tooltip" title="<h2>Norwich</h2><h4>Partners:</h4>University of East Anglia<br>Easton & Otley College<h4>Employers:</h4>Lintott Control Systems Ltd.<br>Warren Services"/>
 	<circle cx="384.5" cy="310.5" r="6" class="tooltip" title="<H2>Bury St Edmunds</H2><h4>Partners:</h4>West Suffolk College<h4>Employers:</h4>R and D Construction<br>Treatt<br>"/>
-	<circle cx="484.5" cy="373.5" r="6" class="tooltip" title="<h2>Ipswich</h2><h4>Partners:</h4>University of Suffolk<BR>Suffolk New College<BR>Easton & Otley College<h4>Employers:</h4>BT<br>"/>
-<circle cx="634.5" cy="193.5" r="6" class="tooltip" title="Lowestoft"/>
+	<circle onclick="myFunction()" cx="484.5" cy="373.5" r="6" class="tooltip" title="<h2>Ipswich</h2><h4>Partners:</h4>University of Suffolk<BR>Suffolk New College<BR>Easton & Otley College<h4>Employers:</h4>BT<br>"/>
+<circle cx="634.5" cy="193.5" r="6" class="tooltip"  title="Lowestoft"/>
 <circle cx="613.5" cy="308.5" r="6" class="tooltip" title="Sizewell"/>
 <circle cx="555.5" cy="420.5" r="6" class="tooltip" title="Felixstowe"/>
 <circle cx="517.5" cy="467.5" r="6" class="tooltip" title="Harwich"/>
