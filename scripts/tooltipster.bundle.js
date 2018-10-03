@@ -51,7 +51,7 @@ var defaults = {
 		trackerInterval: 500,
 		trackOrigin: false,
 		trackTooltip: false,
-		trigger: 'click',
+		trigger: 'hover',
 		triggerClose: {
 			click: false,
 			mouseleave: false,
