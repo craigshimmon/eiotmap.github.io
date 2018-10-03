@@ -61,7 +61,7 @@ var defaults = {
 			touchleave: false
 		},
 		triggerOpen: {
-			click: false,
+			click: true,
 			mouseenter: false,
 			tap: false,
 			touchstart: false
