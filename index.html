@@ -21,7 +21,15 @@
 </script>
 
 
-
+<style>
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+}
+</style>
 
 
 </head>
@@ -151,7 +159,7 @@
 <!--popup script by CS-->
 <script>
 function myFunction() {
-    var x = document.getElementById("infodiv");
+    var x = document.getElementById("myDIV");
     if (x.style.display === "none") {
         x.style.display = "block";
     } else {
@@ -179,5 +187,5 @@ function myFunction() {
 	<circle cx="302.5" cy="93.5" r="6" class="tooltip" title="<b>Kings Lynn</b><br>College of West Anglia"/>
 
 	</div>
-	<div class"infodiv">Something Here</div>
+	<div class="myDIV">Something Here</div>
 </html>
